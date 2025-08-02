@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina - Html básico</title>
+</head>
+
+<header> <!-- Encabezado de la página. Suele contener el logo, título o menú de navegación. -->
+
+    <nav> <!-- Sección de navegación. Aquí van los enlaces principales del sitio. -->
+
+      <!-- Enlace a otra página web dentro del mismo sitio (ruta relativa) -->
+      <a href="segunda.html">Enlace a otra página web (absoluto)</a>
+      <br> <!-- Salto de línea para separar los enlaces -->
+
+      <!-- Enlace a una sección específica dentro de la misma página -->
+      <a href="#zapatillas">Enlace a una sección de la misma página</a>
+      <br>
+
+      <!-- Enlace para abrir un archivo PDF en la misma pestaña -->
+      <a href="images/documento.pdf">Descargar PDF (abre en la misma página)</a>
+      <br>
+
+      <!-- Enlace para descargar directamente el archivo PDF -->
+      <a href="images/documento.pdf" download>Descargar PDF</a>
+
+    </nav>
+
+  </header>
+
+
+<body id="top">
+    hola a todos
+    como 
+    estan
+    <h1>Etiquetas HTML</h1>
+    <h2>Heading tag</h2>
+    <h3>Heading tag</h3>
+    <h4>Heading tag</h4>
+    <h5>Heading tag</h5>
+    <h6>Heading tag</h6>
+    <p>Soy un parrafo y aqui puedo escribir un texto largo y de multiples lineas. 
+    Soy un parrafo y aqui puedo escribir un texto largo y de multiples lineas.
+    Soy un parrafo y aqui puedo escribir un texto largo y de multiples lineas
+    Soy un parrafo y aqui puedo escribir un texto largo y de multiples lineas.
+    </p>    
+    <p>Este es un parrafo muy largo.</p>
+    <p>Este es un <br> parrafo muy largo.</p>
+
+    <hr>
+    
+    <img src="images/mario.png" width="100" height="150"/>
+    <img src="https://pm1.aminoapps.com/6389/9b012614c18a59e417725b65a9c3704ebfe6ad65_hq.jpg" width="200" />
+
+    <hr>
+
+    <!---Esto es un comentario-->
+
+    <ul>
+        <li>primer item de la lista desordenada</li>
+        <li>segundo item</li>
+        <li>tercer item</li>
+    </ul>
+
+    <ol>
+        <li>primer item de la lista desordenada</li>
+        <li>segundo item</li>
+        <li>tercer item</li>
+    </ol>
+
+    <dl>
+        <dt>Soy un titulo de esta describción</dt>
+        <dd>Soy la descripcion de un titulo</dd>
+
+        <dt>Soy un titulo de esta describción</dt>
+        <dd>Soy la descripcion de un titulo</dd>
+
+        <dt>Soy un titulo de esta describción</dt>
+        <dd>Soy la descripcion de un titulo</dd>
+    </dl>
+
+    <!--etiquetas en línea/inline-->
+
+    <strong>Soy la etiqueta strong</strong>
+    <b>Soy la etiqueta b y hago lo mismo que la etiqueta strong</b>
+
+    <u>texto subrayado</u>
+
+    <i>texto en cursiva</i>
+    <en> texto en cursiva igual a la etiqueta i pero es semántica</en>
+
+    <s>Tacga el texto $169.99</s>
+
+    <hr>
+    
+    <a href="https://www.youtube.com/">Soy un enlace a youtube</a>
+    <br>
+    <a href="https://www.youtube.com/" target="_blank">Soy un enlace a youtube.com que se abre en otra pestaña</a>
+    
+    <hr>
+
+    <div>
+        Sirve para dividir /seprara el contenido y soy del tipo bloque
+    </div>
+
+    <div>
+        Sirve para dividir /seprara el contenido y soy del tipo bloque
+    </div>
+
+    <hr>
+
+    <span>sirve para dividir/separar el contenido y soy del tipo en línea</span>
+    <span>sirve para dividir/separar el contenido y soy del tipo en línea</span>
+    <span>soy otra etiqueta span</span>
+
+    <hr>
+
+    <p>Lorem ipsum dolor sit, <strong> consectetur </strong> adipisicing elit. 
+        Eligendi atque minima distinctio ea vel porro non ad architecto, 
+        aperiam et similique facilis placeat ducimus provident harum 
+        tempora sunt nesciunt culpa!
+    </p>
+
+    <hr>
+
+    
+    <div id="zapatillas">
+        <a href="#top">Ir arriba</a>
+        <h2>Zapatlla Nike</h2>
+        <p>Zapatilla de color blanco</p>
+        <img src="images/OIP.webp" width="200" />
+    </div>
+    
+    <hr>
+
+    <header> soy un header y voy en la parte superior de una pagina</header>
+
+    <nav>soy una etiqueta para añadir la navegacion a tu sitio</nav>
+
+    <main> soy una etiqueta main
+
+        <aside>
+            soy un aside y mi contenido es para mostrarlo en un lateral de la pagina
+        </aside>
+
+        <section>
+            soy una seccion de la pagina y puedo repetire mucas veces
+
+            <article>
+                <h2>Zapatilla Nike</h2>
+                <p>Zapatilla de color blanco</p>
+            </article>
+        </section>
+    </main>
+
+    <footer> soy un footer para mostrar contenido en la parte inferior de tu página</footer>
+
+    <hr>
+
+    <pre>
+        function mensaje(str) {
+            console.log(str)
+        }
+    </pre>
+
+    <hr>
+
+    <video src="images/video.mp4" width="300" controls autoplay muted></video>
+    <audio src="images/semana01_dia2-01-html-etiquetas_audio.mp3" controls></audio>
+
+
+</body>
+</html>
