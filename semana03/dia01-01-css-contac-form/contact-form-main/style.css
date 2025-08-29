@@ -1,0 +1,13 @@
+body {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: hsl(148, 38%, 91%);
+    
+
+    display: flex;
+    justify-content: center; /*alinea el contenido horizontalmente*/
+    align-items: center; /*alinea el contenido verticalmente*/
+
+    
+}
