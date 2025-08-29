@@ -16,13 +16,18 @@
 /* GENERAL */
 
 body {
+  display: grid;
 
-    display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-rows: 60px 1fr;
 
-    grid-template-columns: 100px ifr 100px;
-    grid-template-rows: 60px 1fr;
+  height: 100dvh;
 
-    height: 100dvh;
+  /* grid templates areas */
+  grid-template-areas: 
+    "sidebar header header"
+    "sidebar main settings"
+   ;
 }
 
 .header {
@@ -33,24 +38,32 @@ body {
   align-items: center;
 
   padding: 0 1.5rem;
+
+  grid-area: header;
 }
 
 .sidebar {
   background-color: var(--bg-2);
 
   padding: 1rem;
+
+  grid-area: sidebar;
 }
 
 .settings {
   background-color: var(--bg-3);
 
   padding: 1rem;
+
+  grid-area: settings;
 }
 
 .main {
   background-color: var(--bg-4);
 
   padding: 1rem;
+
+  grid-area: main;
 }
 
 .card {
